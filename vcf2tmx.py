@@ -11,6 +11,7 @@ import gzip
 
 #Diccionario de individuos y poblaciones
 
+def read_popmap(file_path):
     popmap = {}
     with open(file_path, 'r') as f:
         for line in f:
